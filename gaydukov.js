@@ -1,5 +1,5 @@
 var VK = require("VK-Promise"),
-    vk = new VK("176d25e1218aabbaaf3382db365375ddddfb14952e16d73d23ad082bb65462b0b48f4e0a0771a2c0a3dd1");
+    vk = new VK("");
 vk.longpoll.start();
 vk.on("message", function (event, msg) {
     if(msg.body == '$гейдуков'){
